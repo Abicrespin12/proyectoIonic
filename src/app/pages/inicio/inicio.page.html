@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="primary">
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-subtitle >Bienvenido a ¡Bibloteca!</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      ¡Bibloteca es una aplicación desarrollada con ionic que permite gestionar una bibloteca de un centro educativo.
+      <br>
+      Para acceder a la bibloteca pulsa en el siguiente botón:
+    </ion-card-content>
+    <ion-card-footer >
+      <ion-buttons>
+        <ion-button routerLink="/bibloteca">
+          <ion-icon name="school-outline"></ion-icon>
+          &nbsp;
+          Acceso a ¡Bibloteca
+        </ion-button>
+      </ion-buttons>
+    </ion-card-footer>
+  </ion-card>
+  <ion-card color="success">
+    <ion-card-header>
+      <ion-card-subtitle color="dark">Información sobre el autor</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Aplicación desarrollada por Javier Gallego.
+    </ion-card-content>
+    <ion-card-footer>
+      <ion-buttons>
+        <ion-button routerLink="/autor">
+          <ion-icon name="person-outline"></ion-icon>
+          &nbsp;
+          Consultar información
+        </ion-button>
+      </ion-buttons>
+    </ion-card-footer>
+  </ion-card>
+</ion-content>
